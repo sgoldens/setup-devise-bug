@@ -1,4 +1,4 @@
-require 'Devise'
+require 'devise'
 
 RSpec.configure do |config|
   config.include Devise::Test::ControllerHelpers, type: :controller
